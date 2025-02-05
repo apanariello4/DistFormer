@@ -1,0 +1,1 @@
+python main.py --backbone convnextfpn_small --batch_size 2 --temporal_compression identity --input_h_w 720 1280 --accumulation_steps 4 --fpn_idx_lstm none --regressor mae --lr 1e-4 --grad_clip 2. --fp16 --mae_alpha 10 --loss_warmup 10 --mae_vit_pretrained --mae_version 2 --pretrain imagenet22k --mae_loss_no_masked 1 --mae_alpha_loss_no_masked 0.001 --wandb=0

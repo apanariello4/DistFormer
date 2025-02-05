@@ -50,6 +50,8 @@ coverage.xml
 .hypothesis/
 .pytest_cache/
 cover/
+.ruff_cache
+.vscode
 
 # Translations
 *.mo
@@ -169,3 +171,12 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+
+cache/
+dataset/gt_detections
+dataset/yolox_detections
+log/
+npy_annotations/
+data/motsynth
+data/kitti
+data/nuscenes
