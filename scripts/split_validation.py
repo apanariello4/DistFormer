@@ -7,9 +7,7 @@ import pandas as pd
 
 from scripts.motsynth_info import MOTSYNTH_TRAIN_AND_VAL_SEQUENCES
 
-motsynth_motchallenge_format_path = Path(
-    "/nas/softechict-nas-3/gmancusi/datasets/MOTSynth/mot_annotations"
-)
+motsynth_motchallenge_format_path = Path("./data/MOTSynth/MOTChallengeFormat")
 
 random.seed(42)
 shuffle(MOTSYNTH_TRAIN_AND_VAL_SEQUENCES)

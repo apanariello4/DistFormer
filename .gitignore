@@ -180,3 +180,5 @@ npy_annotations/
 data/motsynth
 data/kitti
 data/nuscenes
+data/mae_pretrain_vit_base.pth
+*.png

@@ -401,12 +401,3 @@ class SVRNuscenesDataset(NuScenes):
         visibilities = torch.tensor(visibilities[0])
 
         return x, distances, visibilities, torch.from_numpy(classes[0])
-
-
-if __name__ == "__main__":
-    import main
-
-    args = main.parse_args()
-    args.dataset = "nuscenes"
-    args.ds_path = "/work/tesi_fhajali/datasets/nuscenes/"
-    train = NuScenes(args, mode="train")
